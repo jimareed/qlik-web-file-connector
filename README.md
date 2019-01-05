@@ -4,7 +4,7 @@ This example shows how to serve a static file in a docker container for use as a
 #### build/run instructions
 ```
 docker build -t qlik-web-file-datasource .
-docker run -p 8000:90 qlik-web-file-datasource
+docker run -p 8000:90 -d qlik-web-file-datasource
 ```
 
 #### try it out
